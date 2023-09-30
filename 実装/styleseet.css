@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(255,255,255);
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: rgb(243,166,180);
+}
+p {
+    margin: 10px;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.item {
+    width: 700%; /* 箱のサイズ */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(187,224,217);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(187,224,217);
+}
+.item img {
+    width: 100%;
+    height: auto;
+}
+.item a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(243,166,180);
+    font-weight: bold;
+}
+#表
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid rgb(187,224,217);
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: rgb(187,224,217);
+    color: white;
+    writing-mode: vertical-lr; /* テキストを縦向きに表示 */
+    white-space: nowrap; /* テキストが折り返されないようにする */
+    width: 20px; /* thの幅を設定 */
+}
+a {
+    text-decoration: none;
+    color: rgb(187,224,217);
+}
+#ボックスと表を横並びにするやつ
+.container {
+    width: 80%; /* 必要に応じて幅を調整 */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 48%; /* 必要に応じて幅を調整 */
+    padding: 20px;
+    border: 1px solid rgb(187,224,217);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(187,224,217);
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.box a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(243,166,180);
+    font-weight: bold;
+}
+
+table {
+    width: 48%; /* 必要に応じて幅を調整 */
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid rgb(187,224,217);
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(187,224,217);
+    color: white;
+}
