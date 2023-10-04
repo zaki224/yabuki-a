@@ -9,10 +9,6 @@ h1 {
 p {
     margin: 10px;
 }
-.container {
-    width: 100%;
-    margin: 0 auto;
-}
 .box {
     display: flex;
     flex-wrap: wrap;
@@ -20,13 +16,12 @@ p {
     align-items: center;
 }
 .item {
-    width: 700%; /* 箱のサイズ */
+    width: 100%; /* 箱のサイズ */
     margin: 10px;
     padding: 10px;
-    border: 1px solid rgb(187,224,217);
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px rgb(187,224,217);
+    
 }
+
 .item img {
     width: 100%;
     height: auto;
@@ -80,6 +75,13 @@ a {
     box-shadow: 2px 2px 5px rgb(187,224,217);
 }
 
+.box2 {
+    width: 48%; /* 必要に応じて幅を調整 */
+    padding: 20px;
+    border: 1px solid rgb(187,224,217);
+    box-shadow: 2px 2px 5px rgb(187,224,217);
+}
+
 .box img {
     width: 100%;
     height: auto;
@@ -107,4 +109,9 @@ table, th, td {
 th {
     background-color: rgb(187,224,217);
     color: white;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(243,166,180);
 }
